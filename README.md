@@ -1,3 +1,5 @@
+Contributors - Dhruv Agarwal
+
 1. Within a GitHub action that runs whenever code is pushed.  
    This is the best option in my opinion because it promotes the idea of Continous Integration (CI) as it can give us quick feedback if it fails any tests we have defined and also if it is following the development practices we have defined for the team. The problem with the second option in my opinion is that a lot of times, we face the problem of "it works on my machine" which is not ideal for deployement and stability. The third option is not the best one either because running tests after everything has been put together can be fatal because if something goes wrong, we will have to strip everything down to fix it again which can be very time-consuming and unnecessary which reminds of the class concept of Technical Debt.   
 
